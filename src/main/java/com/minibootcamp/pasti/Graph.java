@@ -10,4 +10,9 @@ public class Graph {
 
         return coordinate;
     }
+
+    public int calculateLength(int [] coordinate1, int [] coordinate2) {
+
+        return (int) Math.sqrt(Math.pow(coordinate1[0] - coordinate2[0], 2) + Math.pow(coordinate2[1] - coordinate1[1], 2));
+    }
 }
